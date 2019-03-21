@@ -4,23 +4,31 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
-    "ios": "node node_modules/react-native/local-cli/cli.js run-ios"
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build"
   },
   "dependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.1"
+    "react": "^16.8.4",
+    "react-art": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-native": "0.59.1",
+    "react-native-web": "^0.11.1",
+    "react-router-dom": "^5.0.0",
+    "react-router-native": "^5.0.0",
+    "react-scripts": "^2.1.8"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/runtime": "^7.4.0",
-    "babel-jest": "^24.5.0",
-    "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-test-renderer": "16.8.3"
   },
-  "jest": {
-    "preset": "react-native"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
