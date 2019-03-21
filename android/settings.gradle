@@ -1,0 +1,3 @@
+rootProject.name = 'NativeToWeb'
+
+include ':app'
